@@ -9,36 +9,9 @@ Encerrar uma TeleChamada de acordo com o ID informado
 #### Parâmetro
 
 ```shell
-curl --location --request PUT 'http://localhost:8094/api/v1/patient/67a4bcfc4f9c890349a1bd35' \
+curl --location --request PUT 'http://localhost:8095/api/v1/telecall/f256ad56-7a1f-4c9b-84cf-fffe38f36ef6' \
 --header 'Content-Type: application/json' \
---data-raw '{  
-  "name": "Edgard Alencar",
-  "cpf": "123.456.789-99",
-  "rne": null,
-  "birthDate": "1989-01-01",
-  "email": "edgard.alecard@email.com",
-  "phone": "(11) 99999-9999",
-  "addresses": [
-    {
-      "street": "111",
-      "number": "222",
-      "complement": "333",
-      "neighborhood": "444",
-      "city": "555",
-      "state": "666",
-      "zipCode": "777"
-    },
-    {
-      "street": "Avenida Paulista",
-      "number": "456",
-      "complement": "Sala 202",
-      "neighborhood": "Bela Vista",
-      "city": "São Paulo",
-      "state": "SP",
-      "zipCode": "01310-000"
-    }
-  ]
-}'
+--data '{}'
 ```
     PUT  api/v1/telecall/{Id}
 

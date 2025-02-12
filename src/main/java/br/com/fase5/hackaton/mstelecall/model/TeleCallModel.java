@@ -19,8 +19,7 @@ public class TeleCallModel implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private UUID uuid;
+    private UUID id;
     private LocalDateTime initialDateTime;
     private LocalDateTime finalDateTime;
 

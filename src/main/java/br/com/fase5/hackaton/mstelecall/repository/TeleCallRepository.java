@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import java.util.UUID;
 
 @Repository
-public interface TeleCallInterface extends JpaRepository<TeleCallModel, UUID> {
+public interface TeleCallRepository extends JpaRepository<TeleCallModel, UUID> {
 }

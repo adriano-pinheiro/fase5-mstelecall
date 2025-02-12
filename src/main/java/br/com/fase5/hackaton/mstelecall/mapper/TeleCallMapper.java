@@ -7,9 +7,9 @@ public class TeleCallMapper {
 
     private TeleCallMapper(){}
 
-    public static TeleCallDTO toDto(TeleCallModel telecallModel) {
+    public static TeleCallDTO toDTO(TeleCallModel telecallModel) {
         return TeleCallDTO.builder()
-                .uuid(telecallModel.getUuid())
+                .uuid(telecallModel.getId())
                 .initialDateTime(telecallModel.getInitialDateTime())
                 .finalDateTime(telecallModel.getFinalDateTime())
                 .build();
@@ -17,7 +17,7 @@ public class TeleCallMapper {
 
     public static TeleCallModel toEntity(TeleCallDTO telecallDTO) {
         return TeleCallModel.builder()
-                .uuid(telecallDTO.uuid())
+                .id(telecallDTO.uuid())
                 .initialDateTime(telecallDTO.initialDateTime())
                 .finalDateTime(telecallDTO.finalDateTime())
                 .build();
