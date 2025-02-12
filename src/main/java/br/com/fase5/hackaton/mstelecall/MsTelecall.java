@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MsTelecallApplication {
+public class MsTelecall {
 
     public static void main(String[] args) {
-        SpringApplication.run(MsTelecallApplication.class, args);
+        SpringApplication.run(MsTelecall.class, args);
     }
 
 }
