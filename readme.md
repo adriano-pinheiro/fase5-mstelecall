@@ -17,7 +17,7 @@ Url de acesso: http://localhost:8095/api/v1
 
 ## Iniciar testes unitários
 
-Execução dos testes unitários. Necessário ter o utilitário make instalado.
+Execução dos testes unitários. Necessário ter o utilitário make instalado. 
 
 ```shell
 make api/test
@@ -25,7 +25,7 @@ make api/test
 
 ## Iniciar ambiente dev/local
 
-Inicia container e configura a aplicação. Necessário ter o utilitário make instalado. 
+Inicia container e configura a aplicação. Necessário ter o utilitário make instalado e o docker estar em execução.
 
 ```shell
 make dev/local
@@ -35,7 +35,7 @@ ou inicialização manual
 
 ```shell
 docker-compose up -d
-mvnw spring-boot:run
+./mvnw spring-boot:run
 ```
 
 ## GIT
