@@ -43,7 +43,7 @@ https://github.com/adriano-pinheiro/fase5-mstelecall
 
 
 ## Collection para importação no Postman
-[telecall.postman_collection.json](externalfiles%2Fpatient.postman_collection.json)
+[telecall.postman_collection.json](externalfiles%2Ftelecall.postman_collection.json)
 
 
 ## Documentação API
