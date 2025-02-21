@@ -16,9 +16,7 @@ Endpoint para criação de uma nova TeleChamada.
 
 
 ```shell
-curl --location 'http://localhost:8095/api/v1/telecall' \
---header 'Content-Type: application/json' \
---data '{}'
+curl --location --request POST 'http://localhost:8095/api/v1/telecall'
 ```
     POST  api/v1/telecall
 

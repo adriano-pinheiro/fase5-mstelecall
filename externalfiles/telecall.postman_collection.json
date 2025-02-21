@@ -14,15 +14,6 @@
 					"request": {
 						"method": "POST",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
 						"url": {
 							"raw": "{{host}}/api/v1/telecall",
 							"host": [
@@ -44,7 +35,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{  \r\n  \"name\": \"Edgard Alencar Alterado\",  \r\n  \"birthDate\": \"1999-01-01\",\r\n  \"email\": \"edgard.alecar.alterado@email.com\",\r\n  \"phone\": \"(11) 99999-9999\",\r\n  \"addresses\": [\r\n    {\r\n      \"street\": \"111\",\r\n      \"number\": \"222\",\r\n      \"complement\": \"333\",\r\n      \"neighborhood\": \"444\",\r\n      \"city\": \"555\",\r\n      \"state\": \"666\",\r\n      \"zipCode\": \"777\"\r\n    },\r\n    {\r\n      \"street\": \"Avenida Paulista\",\r\n      \"number\": \"456\",\r\n      \"complement\": \"Sala 202\",\r\n      \"neighborhood\": \"Bela Vista\",\r\n      \"city\": \"São Paulo\",\r\n      \"state\": \"SP\",\r\n      \"zipCode\": \"01310-000\"\r\n    }\r\n  ]\r\n}",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -52,15 +43,15 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/api/v1/patient/67aa9402071d7b60959a8fd9",
+							"raw": "{{host}}/api/v1/telecall/a7b9b655-bcc6-4435-b7cd-af8ca73fa6b0",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"api",
 								"v1",
-								"patient",
-								"67aa9402071d7b60959a8fd9"
+								"telecall",
+								"a7b9b655-bcc6-4435-b7cd-af8ca73fa6b0"
 							],
 							"query": [
 								{
