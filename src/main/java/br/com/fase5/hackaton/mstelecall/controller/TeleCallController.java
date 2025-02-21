@@ -24,8 +24,8 @@ public class TeleCallController {
     @Operation(summary = "Criar uma TeleChamada",
             description = "Este endpoint cria uma TeleChamada no sistema.")
     @PostMapping
-    public ResponseEntity<TeleCallDTO> save(@RequestBody TeleCallDTO teleCallDTO) {
-        TeleCallDTO telecall = teleCallService.save(teleCallDTO);
+    public ResponseEntity<TeleCallDTO> save() {
+        TeleCallDTO telecall = teleCallService.save();
         return new ResponseEntity<>(telecall, HttpStatus.CREATED);
     }
 

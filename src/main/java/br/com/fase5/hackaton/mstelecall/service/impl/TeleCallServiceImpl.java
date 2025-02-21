@@ -22,8 +22,8 @@ public class TeleCallServiceImpl implements TeleCallService {
 
     @Override
     @Transactional
-    public TeleCallDTO save(TeleCallDTO teleCallDTO) {
-        TeleCallModel teleCallModel = TeleCallMapper.toEntity(teleCallDTO);
+    public TeleCallDTO save() {
+        TeleCallModel teleCallModel = new TeleCallModel();
         teleCallModel.setId(UUID.randomUUID());
         return TeleCallMapper.toDTO(teleCallRepository.save(teleCallModel));
     }
