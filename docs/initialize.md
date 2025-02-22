@@ -9,7 +9,7 @@ Inicializa uma TeleChamada de acordo com o ID informado
 #### Parâmetro
 
 ```shell
-curl --location --request PUT 'http://localhost:8095/api/v1/telecall/f256ad56-7a1f-4c9b-84cf-fffe38f36ef6' \
+curl --location --request PUT 'http://localhost:8095/api/v1/telecall/96b12c9e-3e02-49fa-80fa-29397d05e490' \
 --header 'Content-Type: application/json' \
 --data '{}'
 ```

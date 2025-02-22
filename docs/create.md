@@ -24,7 +24,7 @@ curl --location --request POST 'http://localhost:8095/api/v1/telecall'
 
 ```json
 {
-  "uuid": "e38566c3-acb9-44ca-bb93-fd1f844e5471",
+  "uuid": "96b12c9e-3e02-49fa-80fa-29397d05e490",
   "initialDateTime": null,
   "finalDateTime": null
 }
